@@ -1,11 +1,11 @@
-const checkbox = document.getElementById('checkbox');
-const dialog = document.getElementsById('confirmed');
+var checkbox = document.getElementsById('checkbox');
+var confirms = document.getElementsById('confirmed');
 let count = 0;
 checkbox.addEventListener('change', function() {
-  if (this.checked) {
-    dialog.style.display = 'block';
-    count++;
-  } else {
-    dialog.style.display = 'none';
-  }
+    if (this.checked) {
+        checkbox.style.display = 'block';
+    } else {
+        // Checkbox is unchecked
+        // You can add code here if you want to do something when the checkbox is unchecked
+    }
 });

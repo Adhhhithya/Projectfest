@@ -164,8 +164,10 @@ a:hover{
     margin: right;
     margin-right: 2vh;
 }
-#confirmed{
+.confirmed{
     display: none;
+    position: fixed;
+    left: 40%;
     margin-left: 4vh;
     height: 8vh;
     padding: 10px;
