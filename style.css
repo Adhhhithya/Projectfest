@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-position: center;
     display: block;
-    background: #befaf0;
+    background: linear-gradient(180deg,#43a191,#467a72,#2d4743);
 }
 html{
     scroll-behavior:smooth;
@@ -75,11 +75,8 @@ a:hover{
     text-decoration-color: rgb(181,181,181);
 }
 .logo{
+    color: #befaf0;
     font-size: 2rem;
-    height: 11vh;
-}
-.logo img{
-    height: 11vh;
 }
 .logo:hover{
     cursor: default;
@@ -165,4 +162,13 @@ a:hover{
 }
 .NeedDisc label input{
     margin: right;
+    margin-right: 2vh;
+}
+#confirmed{
+    display: none;
+    margin-left: 4vh;
+    height: 8vh;
+    padding: 10px;
+    background-color: rgb(132, 201, 28);
+    border: 1px solid #2d4743;
 }

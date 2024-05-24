@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-position: center;
     display: block;
-    background: #befaf0;
+    background: linear-gradient(180deg,#43a191,#467a72,#2d4743);
 }
 html{
     scroll-behavior:smooth;
@@ -22,9 +22,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 13vh;
-    opacity: 1;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    background-color: #000;
 }
 .nav-links{
     gap: 2rem;
@@ -33,7 +31,7 @@ nav{
     font-size: 1.5rem;
 }
 a{
-    color: #000;
+    color: #befaf0;
     text-decoration: none;
     transition: All 300ms ease;
     transition: .5s;
@@ -46,10 +44,7 @@ a:hover{
 }
 .logo{
     font-size: 2rem;
-    height: 11vh;
-}
-.logo img{
-    height: 11vh;
+    color: #befaf0;
 }
 .logo:hover{
     cursor: default;
