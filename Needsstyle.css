@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'REM', sans-serif;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #befaf0;
+}
+html{
+    scroll-behavior:smooth;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #1b1a1a;
+    padding: 8px;
+    text-align: center;
+    padding: 20px;
+}
+th {
+    background-color: black;
+    color: #befaf0;
+}
+.Btn{
+    opacity: 1;
+    background: rgb(136, 3, 3);
+    justify-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    width: 25vh;
+}
+#msg{
+    display: none;
+    margin-top: 5vh;
+    color: rgb(33, 167, 33);
+}

@@ -6,9 +6,9 @@
 body{
     font-family: 'REM', sans-serif;
     padding: 30px 30px;
+    display: block;
     background-size: cover;
     background-position: center;
-    display: block;
     background: linear-gradient(180deg,#43a191,#467a72,#2d4743);
 }
 html{
@@ -66,7 +66,7 @@ nav{
 a{
     color: #befaf0;
     text-decoration: none;
-    transition: All 300ms ease;
+    transition: all 300ms ease-in-out;
     transition: .5s;
 }
 a:hover{
@@ -158,13 +158,7 @@ a:hover{
     font-size: large;
     font-weight: 400;
     margin-left: 3vh;
-    display: flex;
-
-    justify-content: space-around;
-}
-.NeedDisc label input{
-    margin: right;
-    margin-right: 2vh;
+    margin-right: 17vh;
 }
 .confirmed{
     display: none;

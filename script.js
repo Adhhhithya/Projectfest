@@ -1,12 +1,14 @@
-const cb = document.getElementsByClassName('checkbox');
-const confirms = document.getElementsByClassName('confirmed');
-let count = 0;
-checkbox.addEventListener('change', function oncheck(){
-    if (cb.checked) {
-        confirms.style.display = 'block';
-    } else {
-        cb.checked=false;
-        // Checkbox is unchecked
-        // You can add code here if you want to do something when the checkbox is unchecked
-    }
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.getElementById('Btn');
+    const display = document.getElementById('msg');
+    let clickCount = 0;
+
+    button.addEventListener('click', () => {
+        clickCount++;
+        if (clickCount >= 2) {
+            button.disabled = true;
+            display.style.display = 'block';
+        }
+    });
 });
+  

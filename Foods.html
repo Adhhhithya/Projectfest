@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Spanned Column</title>
+    <link rel="stylesheet" href="Needsstyle.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Areas</th>
+                <th>Status</th>
+                <th>Request Supply</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01.</td>
+                <td>Madipakkam</td>
+                <td>No Requests Raised Yet.</td>
+                <td rowspan="5"><button class="Btn" id="Btn" onclick="Reqcount()">Request</button><div id="msg">Request Has Been Raised</div></td>
+            </tr>
+            <tr>
+                <td>02.</td>
+                <td>Kolathur</td>
+                <td>No Requests Raised Yet.</td>
+            </tr>
+            <tr>
+                <td>03.</td>
+                <td>Perumbakkam</td>
+                <td>No Requests Raised Yet.</td>
+            </tr>
+            <tr>
+                <td>04.</td>
+                <td>Velachery</td>
+                <td>No Requests Raised Yet.</td>
+            </tr>
+            <tr>
+                <td>05.</td>
+                <td>Meenambakkam</td>
+                <td>No Requests Raised Yet.</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
