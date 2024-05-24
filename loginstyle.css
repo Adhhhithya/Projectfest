@@ -17,7 +17,7 @@ body {
     background: #000;
     background-size: cover;
     background-position: center;
-    background: #befaf0;
+    background: linear-gradient(180deg, #626363,#556665,#6a8a88);
 }
 
 .wrapper {
