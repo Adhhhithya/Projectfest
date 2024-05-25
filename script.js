@@ -5,10 +5,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     button.addEventListener('click', () => {
         clickCount++;
-        if (clickCount >= 2) {
+        if (clickCount >= 1) {
             button.disabled = true;
-            display.style.display = 'block';
+            window.open("Request.html");
         }
     });
 });
-  
