@@ -204,3 +204,7 @@ body {
     font-weight: bolder;
     opacity: 0.5;
 }
+.msg{
+    display: none;
+    color: rgb(0, 189, 0);
+}
